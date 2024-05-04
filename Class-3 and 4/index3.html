@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap 5 -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Modal -->
+    
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br><br><br>
+
+
+    <!-- Offcanvas -->
+
+
+
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+        aria-controls="offcanvasTop">Toggle top offcanvas</button>
+    
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            ...
+        </div>
+    </div>
+
+
+
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        aria-controls="offcanvasExample">
+        Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample">
+        Button with data-bs-target
+    </button>
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+                etc.
+            </div>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br>
+
+
+
+    <!-- Pagination -->
+
+
+    <nav aria-label="...">
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+    <br><br><br>
+
+
+    <!-- Spinners -->
+
+
+
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-secondary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+
+    <br><br><br>
+
+
+
+    <!-- Position -->
+
+
+   <h1 class="fixed-bottom">Fixed Buttom</h1>
+   <h1 class="fixed-top">Fixed Top</h1>
+   <h1 class="sticky-top">Sticky top</h1>
+
+
+
+   <!-- Border -->
+
+
+    <p class="border border-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, tenetur sit. Reiciendis sed tenetur ad dolor aliquam et. Ad, debitis temporibus? Nostrum cupiditate, excepturi sed enim eos, consequatur vero, ipsa rem dignissimos minus id sint maxime natus. Distinctio commodi recusandae exercitationem, non fugiat optio facere ipsam omnis totam. Reiciendis aliquam, quisquam temporibus placeat quo, voluptates, necessitatibus consectetur quidem magni perferendis quos. Expedita nesciunt quia recusandae ab illo esse sit distinctio sunt quam vitae optio mollitia, amet, eveniet, velit veritatis vero et. Omnis exercitationem harum quo laudantium quam placeat odio, cumque optio veniam nobis doloribus officia nam iusto aspernatur in ducimus alias? Tenetur ut debitis quisquam alias nulla nemo error a nesciunt at porro ducimus vitae officia aperiam rem labore ex iusto dolore, ea deleniti fuga laboriosam? Voluptate aspernatur hic dolore dolor, provident quibusdam molestiae recusandae tenetur neque? At maxime in provident ipsa molestias dolorem velit illum, earum nam quam libero nobis magnam, voluptas architecto facere exercitationem sunt ipsam illo ex nihil! Quae, repellat ullam eligendi itaque aliquam numquam quos recusandae? Iure voluptas labore iste beatae in repellendus aliquam nihil similique minus sint sit nobis, dolores rerum architecto maxime facilis unde ullam sunt saepe repellat. Quas incidunt maxime at dignissimos ad molestias sunt dolorem? Quo repellendus voluptate vel neque quos delectus tenetur doloribus dolor, voluptates architecto beatae debitis animi blanditiis perferendis temporibus fuga reprehenderit eligendi pariatur id error sequi quia nam impedit! Voluptatibus distinctio quibusdam libero vel sunt necessitatibus quia odit, natus cupiditate veniam voluptates assumenda fugiat? Reiciendis perferendis voluptatum officia repellat neque beatae voluptas similique modi itaque necessitatibus, et ex nam. A nesciunt dolore reprehenderit. Officia nesciunt, temporibus recusandae eius excepturi dolorum, voluptas sint nemo facilis porro iusto qui mollitia labore veniam est exercitationem rerum ducimus ea consequuntur reiciendis ad iure perspiciatis voluptatem dignissimos! Possimus eos recusandae asperiores! Odio suscipit voluptate sed dicta corporis, non doloribus quae fugit, quam vero harum, cumque illum amet pariatur ipsum a obcaecati cum alias! Vero, explicabo? Ipsam enim ratione iste cupiditate deserunt explicabo iure voluptatum. Eveniet quia harum dolore ratione laudantium corrupti autem doloribus, placeat animi est atque asperiores nam doloremque veritatis iure nihil sint. Tempora, velit iste natus libero modi dolor maxime aperiam excepturi maiores sequi esse soluta labore consequatur atque itaque adipisci fugit dolore officiis facere ullam quia! Nesciunt laborum reprehenderit officiis quas accusamus. Dolore ea quo beatae doloremque corrupti, tempora neque ipsa ratione architecto porro hic, recusandae possimus. Distinctio vitae, corrupti dignissimos doloremque, cupiditate voluptate natus libero magni aut consectetur recusandae eaque? Eveniet voluptate, inventore quis aliquam odit minima provident nisi quibusdam iusto ipsum harum iure fugit excepturi repudiandae alias facere ab dignissimos assumenda magni obcaecati. Quod unde corrupti cumque eveniet, eos mollitia tempore accusamus dolor debitis soluta suscipit et eum culpa adipisci deserunt error praesentium quo expedita distinctio quae molestias reiciendis eaque beatae. Libero perspiciatis architecto labore cum animi nihil modi fuga rem dignissimos, tempora eveniet et maiores corrupti consequatur impedit quisquam vitae sequi? Fuga minus natus soluta eos earum quia. Inventore illum velit, explicabo atque perferendis molestias natus possimus vitae laboriosam similique necessitatibus et numquam odit qui quia non delectus minus accusantium blanditiis sit fugit ducimus sequi! Obcaecati alias commodi voluptatibus tempora impedit reprehenderit ipsam error nemo recusandae non dolores eos beatae, sapiente sed possimus ut deleniti rerum laudantium facilis illum aspernatur! Quisquam quos sed accusamus. Modi veritatis, provident eveniet quaerat quia commodi. Repudiandae pariatur voluptate similique earum perferendis reprehenderit totam, provident impedit debitis ut consectetur perspiciatis vel incidunt veritatis voluptates, maxime ea fuga maiores dolorum cum, accusantium eaque possimus. Voluptatem assumenda accusantium repellendus vitae repudiandae eius voluptatibus eos tempora esse debitis quisquam magnam, distinctio excepturi in placeat quibusdam, aperiam qui molestias facere? Voluptatum asperiores consequatur enim, repellendus corporis accusamus dicta consectetur culpa natus, itaque, in quod commodi odit facere! Accusantium iure repellendus totam sapiente similique in eaque, iusto expedita eveniet inventore dignissimos earum veniam nesciunt ea tenetur tempore? Nisi deleniti, aliquid minus saepe ratione vero neque, autem eum, at odio architecto maxime. Quibusdam ducimus maxime sit dicta voluptates. Quasi doloremque excepturi expedita ipsum saepe, doloribus totam repellat numquam sunt cumque in ex odit atque est id ducimus et placeat, inventore, vel sapiente quas aliquam! Eveniet nihil accusantium officiis iure est quaerat voluptatem placeat beatae nam fuga pariatur nisi, deleniti quidem. Rerum autem ducimus, laudantium veniam dolore commodi doloremque ut omnis harum id error sequi quidem sit facilis! Quos doloribus sint ut iusto dolorum nihil sequi itaque velit aspernatur fuga! Quaerat perspiciatis dolor officia ut officiis fuga tempore, animi pariatur ad repellendus placeat vel velit impedit autem aliquam facere explicabo cum. Quas, tempora sit quisquam excepturi eum doloribus similique fugit atque magnam exercitationem quos sint repellat suscipit voluptates rerum ea nostrum? Vero molestiae ex, modi a voluptates error! Natus ullam sunt, porro harum odit nam nostrum adipisci facere, tenetur obcaecati quibusdam cumque ad alias aut blanditiis aspernatur sed tempore voluptatibus fugit quos sequi vel hic eligendi sit. Mollitia autem rem consequatur fugit beatae maiores nihil obcaecati labore incidunt magni amet maxime et expedita ab totam, voluptatem ipsa repudiandae illum illo consectetur ducimus in dolorem quis. Fugiat atque, ducimus aut magnam a officia temporibus at id laborum itaque illo! Ut earum suscipit enim expedita atque. Molestiae nam rerum itaque dolor quod. Id eum nihil, iste maiores sunt numquam optio quia nam! Delectus fugit optio ex distinctio repellat eius exercitationem quos autem quas, sequi amet quisquam temporibus tempora deleniti, molestiae quo. Corrupti porro ab non nobis dignissimos vel a quod ipsum excepturi iste. Autem qui eius odio vel aperiam velit praesentium debitis ipsa commodi? Inventore atque veniam voluptatum illum modi nesciunt error earum eos necessitatibus quae vitae vero assumenda veritatis ipsum, alias repellat, accusantium repellendus maiores minima dolorum totam consequatur est iusto ab. Placeat, commodi. Ipsam ad mollitia fugiat. Laboriosam incidunt, corrupti dignissimos architecto tempore magnam. Maxime magni tenetur est? Fugiat quaerat repellat, pariatur cupiditate, consequatur sapiente laudantium deleniti consequuntur dolor accusamus animi asperiores repudiandae voluptates numquam corporis. Illum blanditiis magnam tenetur dolor, dolores nam assumenda recusandae harum ea, eaque dignissimos sit. Consectetur porro eveniet voluptatum ex, rerum delectus itaque eligendi!</p>
+
+
+
+    <br><br><br>
+
+
+
+    <!-- Display Flex -->
+
+
+
+    <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <div class="d-flex flex-row-reverse bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+
+
+
+    <br><br><br>
+
+ 
+
+
+
+    <div class="mb-5"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
